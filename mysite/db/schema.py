@@ -33,7 +33,7 @@ class UserProfileOutSchema(BaseModel):
     is_active: bool
 
 class UserLoginSchema(BaseModel):
-    username: str
+    email: EmailStr
     password: str
 
 
